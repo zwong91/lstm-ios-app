@@ -252,7 +252,7 @@ class ViewController: UIViewController {
           }
           
           var X = preparePredictSequenceData(cardDetections: selectedObjects, sequenceLength: timeSteps)
-          
+          print("Initial predict sequenceData: \(X)")
           var predictionsList: [[[Double]]] = []
           
           for _ in 0..<10 {
@@ -277,10 +277,27 @@ class ViewController: UIViewController {
               let yPredDenormalized = denormalizeData(yPred, min: scalerY.min, max: scalerY.max)
               
               predictionsList.append(yPredDenormalized.map { [$0] })
-              let reshapedYPred = [yPredDenormalized]
-              
-              // 更新 X
-              X = Array(X.dropFirst()) + [reshapedYPred]
+              // 确保 yPredDenormalized 至少有两个值 [cx, cy]
+              if yPredDenormalized.count >= 2 {
+                  let newPrediction = [yPredDenormalized[0], yPredDenormalized[1]]  // 创建新的时间步
+                  
+                  // 删除 X[0] 中的第一个 [cx, cy]
+                  if !X.isEmpty && !X[0].isEmpty {
+                      X[0].removeFirst()
+                  }
+                  
+                  // 添加新的预测结果到 X 的末尾
+                  if X.count > 0 {
+                      X[0].append(newPrediction)  // 追加新的预测到现有时间步中
+                  }
+                  
+                  // 确保 X 的长度保持为 timeSteps
+                  if X.count > timeSteps {
+                      X.removeFirst()
+                  }
+                  
+                  print("Updated predict sequenceData: \(X)")
+              }
           }
           
           return predictionsList
@@ -322,7 +339,7 @@ class ViewController: UIViewController {
               
               let futureCy1 = flatPrediction1.count >= 2 ? flatPrediction1[1] : 0
               let futureCy2 = flatPrediction2.count >= 2 ? flatPrediction2[1] : 0
-              
+              print("牌类型 \(types[0]) 和 \(types[1]) 的预测结果: \(futureCy1), vs \(futureCy2)")
               if futureCy1 > futureCy2 {
                   type0 += 1
               } else {
