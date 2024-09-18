@@ -154,16 +154,12 @@ class ViewController: UIViewController {
       // 检测数据示例
       let cardDetections: [String: [[Double]]] = [
           "Tc": [
-              [551, 1129, 599, 1239, 0.61328125],
-              [553, 1131, 600, 1238, 0.6396484375],
               [552, 1130, 601, 1237, 0.6396484475],
               [554, 1131, 602, 1240, 0.6396484575],
               [555, 1132, 603, 1241, 0.6396484675],
               [556, 1133, 604, 1242, 0.6396484175],
           ],
           "Td": [
-              [551, 1129, 599, 1239, 0.61328125],
-              [553, 1131, 650, 1248, 0.6396484375],
               [552, 1130, 651, 1257, 0.6396484475],
               [554, 1131, 662, 1260, 0.6396484575],
               [555, 1132, 663, 1271, 0.6396484675],
@@ -245,7 +241,8 @@ class ViewController: UIViewController {
           
           // 对数据进行填充或截取
           if selectedObjects.count < timeSteps {
-              let padding = Array(repeating: [Double](repeating: 0.0, count: selectedObjects.first?.count ?? 0), count: timeSteps - selectedObjects.count)
+              let firstElement = selectedObjects.first ?? [Double](repeating: 0.0, count: 0)
+              let padding = Array(repeating: firstElement, count: timeSteps - selectedObjects.count)
               selectedObjects = padding + selectedObjects
           } else {
               selectedObjects = Array(selectedObjects.suffix(timeSteps))
