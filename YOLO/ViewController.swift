@@ -314,7 +314,6 @@ class ViewController: UIViewController {
           var type0 = 0
           var type1 = 0
           for iteration in 5..<10 {
-              print("\n第 \(iteration + 1) 轮预测结果比较:")
               let prediction1 = predictionsList[iteration]
               let prediction2 = predictionsList[iteration + 10]
               
