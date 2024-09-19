@@ -387,9 +387,9 @@ class ViewController: UIViewController {
       let scalerY = loadScaler(from: "scaler_y")
 
       let groupTypes = [
-          //["Td", "Tc"],
-          //["BJoker","3d"],
-          //["8h","7d"],
+          ["Td", "Tc"],
+          ["BJoker","3d"],
+          ["8h","7d"],
           ["Ad", "Jh"],
       ]
 
