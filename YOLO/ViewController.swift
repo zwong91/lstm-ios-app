@@ -382,7 +382,7 @@ class ViewController: UIViewController {
       }
 
       // 主执行逻辑
-      let coremlModel = loadModel(from: "lstm_coord_0914_int8", extension: "mlmodelc")
+      let coremlModel = loadModel(from: "lstm_coord_0919", extension: "mlmodelc")
       let scalerX = loadScaler(from: "scaler_X")
       let scalerY = loadScaler(from: "scaler_y")
 
