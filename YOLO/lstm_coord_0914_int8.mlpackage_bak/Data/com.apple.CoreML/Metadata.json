@@ -1,0 +1,10 @@
+{
+  "MLModelVersionStringKey" : "1.0",
+  "MLModelDescriptionKey" : "双向LSTM模型, 带有注意力机制",
+  "MLModelCreatorDefinedKey" : {
+    "com.github.apple.coremltools.version" : "7.2",
+    "com.github.apple.coremltools.source" : "tensorflow==2.15.0"
+  },
+  "MLModelAuthorKey" : "hello",
+  "MLModelLicenseKey" : "许可信息"
+}

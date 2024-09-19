@@ -123,9 +123,6 @@ class ViewController: UIViewController {
     selection.selectionChanged()
   }
 
-    
-
-    
   @IBAction func indexChanged(_ sender: Any) {
     selection.selectionChanged()
     activityIndicator.startAnimating()
@@ -343,7 +340,7 @@ class ViewController: UIViewController {
               }
               
               guard let inputData = inputArray,
-                    let predictionInput = try? MLDictionaryFeatureProvider(dictionary: ["input_2": inputData]),
+                    let predictionInput = try? MLDictionaryFeatureProvider(dictionary: ["input_3": inputData]),
                     let output = try? model.prediction(from: predictionInput),
                     let yPredScaled = output.featureValue(for: "Identity")?.multiArrayValue else {
                   print("Prediction failed for card type \(cardType)")
@@ -382,7 +379,7 @@ class ViewController: UIViewController {
       }
 
       // 主执行逻辑
-      let coremlModel = loadModel(from: "lstm_coord_0919", extension: "mlmodelc")
+      let coremlModel = loadModel(from: "lstm_coord0919", extension: "mlmodelc")
       let scalerX = loadScaler(from: "scaler_X")
       let scalerY = loadScaler(from: "scaler_y")
 

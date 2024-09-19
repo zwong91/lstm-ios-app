@@ -10,8 +10,8 @@
 		4605F36D2C959E3300B3F18A /* yolov8n.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 4605F36C2C959E3300B3F18A /* yolov8n.mlpackage */; };
 		4678708D2C9C264500D2EC91 /* scaler_X.json in Resources */ = {isa = PBXBuildFile; fileRef = 4678708B2C9C264500D2EC91 /* scaler_X.json */; };
 		4678708E2C9C264500D2EC91 /* scaler_y.json in Resources */ = {isa = PBXBuildFile; fileRef = 4678708C2C9C264500D2EC91 /* scaler_y.json */; };
-		467870942C9C271800D2EC91 /* lstm_coord0919.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 467870932C9C271800D2EC91 /* lstm_coord0919.mlmodel */; };
-		46A7B9772C959F8E009CD33F /* lstm_coord_0914_int8.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 46A7B9762C959F8E009CD33F /* lstm_coord_0914_int8.mlpackage */; };
+		467870BD2C9C2CEB00D2EC91 /* lstm_coord_0914_int8.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 467870BC2C9C2CEB00D2EC91 /* lstm_coord_0914_int8.mlpackage */; };
+		467870BF2C9C2CF000D2EC91 /* lstm_coord0919.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 467870BE2C9C2CF000D2EC91 /* lstm_coord0919.mlmodel */; };
 		633BC6FB22EDE73D00821BCA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633BC6FA22EDE73D00821BCA /* Settings.bundle */; };
 		636166EA251443B20054FA7E /* ThresholdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636166E9251443B20054FA7E /* ThresholdProvider.swift */; };
 		636EFCAA21E62DD300DE43BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EFC9C21E62DD300DE43BC /* ViewController.swift */; };
@@ -28,8 +28,8 @@
 		4605F36C2C959E3300B3F18A /* yolov8n.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolov8n.mlpackage; sourceTree = "<group>"; };
 		4678708B2C9C264500D2EC91 /* scaler_X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scaler_X.json; sourceTree = "<group>"; };
 		4678708C2C9C264500D2EC91 /* scaler_y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scaler_y.json; sourceTree = "<group>"; };
-		467870932C9C271800D2EC91 /* lstm_coord0919.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = lstm_coord0919.mlmodel; sourceTree = "<group>"; };
-		46A7B9762C959F8E009CD33F /* lstm_coord_0914_int8.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = lstm_coord_0914_int8.mlpackage; sourceTree = "<group>"; };
+		467870BC2C9C2CEB00D2EC91 /* lstm_coord_0914_int8.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = lstm_coord_0914_int8.mlpackage; sourceTree = "<group>"; };
+		467870BE2C9C2CF000D2EC91 /* lstm_coord0919.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = lstm_coord0919.mlmodel; sourceTree = "<group>"; };
 		6323C44D22186177008AE681 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6323C44F22186177008AE681 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6323C45122186177008AE681 /* ultralytics_yolo_logotype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultralytics_yolo_logotype.png; sourceTree = "<group>"; };
@@ -79,10 +79,10 @@
 				632892DF22EB3DB100A12D9C /* Info.plist */,
 				636EFCB821E62E3900DE43BC /* Assets.xcassets */,
 				6323C45122186177008AE681 /* ultralytics_yolo_logotype.png */,
+				467870BC2C9C2CEB00D2EC91 /* lstm_coord_0914_int8.mlpackage */,
 				4678708B2C9C264500D2EC91 /* scaler_X.json */,
-				467870932C9C271800D2EC91 /* lstm_coord0919.mlmodel */,
+				467870BE2C9C2CF000D2EC91 /* lstm_coord0919.mlmodel */,
 				4678708C2C9C264500D2EC91 /* scaler_y.json */,
-				46A7B9762C959F8E009CD33F /* lstm_coord_0914_int8.mlpackage */,
 				4605F36C2C959E3300B3F18A /* yolov8n.mlpackage */,
 			);
 			path = YOLO;
@@ -209,9 +209,9 @@
 				636166EA251443B20054FA7E /* ThresholdProvider.swift in Sources */,
 				636EFCB321E62DD300DE43BC /* AppDelegate.swift in Sources */,
 				636EFCAA21E62DD300DE43BC /* ViewController.swift in Sources */,
-				46A7B9772C959F8E009CD33F /* lstm_coord_0914_int8.mlpackage in Sources */,
+				467870BD2C9C2CEB00D2EC91 /* lstm_coord_0914_int8.mlpackage in Sources */,
 				8EDAA33950796844333D60A7 /* BoundingBoxView.swift in Sources */,
-				467870942C9C271800D2EC91 /* lstm_coord0919.mlmodel in Sources */,
+				467870BF2C9C2CF000D2EC91 /* lstm_coord0919.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
