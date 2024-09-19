@@ -1,12 +1,12 @@
 {
   "Outputs" : {
     "Identity" : {
-      "MLFeatureShortDescription" : ""
+      "MLFeatureShortDescription" : "[480.35667330026627, 973.4333149790764]"
     }
   },
   "Inputs" : {
     "input_2" : {
-      "MLFeatureShortDescription" : ""
+      "MLFeatureShortDescription" : "[[[578.0, 1185.5], [579.0, 1186.5], [580.0, 1187.5], [482.18280550837517, 956.7145566046238], [479.1390694975853, 967.6044552922249]]]"
     }
   },
   "TrainingInputs" : {

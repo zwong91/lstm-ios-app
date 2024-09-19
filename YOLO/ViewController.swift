@@ -164,7 +164,88 @@ class ViewController: UIViewController {
               [554, 1131, 662, 1260, 0.6396484575],
               [555, 1132, 663, 1271, 0.6396484675],
               [556, 1133, 674, 1282, 0.6396484175],
-          ]
+          ],
+          "3d": [
+              [85, 1054, 147, 1197, 0.415283203125],
+              [82, 1052, 145, 1191, 0.6240234375],
+              [81, 1050, 143, 1187, 0.61767578125],
+              [81, 1051, 143, 1188, 0.619140625],
+              [81, 1050, 142, 1188, 0.61279296875],
+              [81, 1050, 142, 1187, 0.62060546875],
+              [81, 1051, 142, 1188, 0.62060546875],
+              [80, 1051, 142, 1187, 0.6220703125],
+              [81, 1051, 142, 1188, 0.623046875],
+              [81, 1052, 142, 1188, 0.62353515625],
+              [81, 1052, 142, 1188, 0.62255859375],
+              [81, 1052, 143, 1189, 0.6259765625],
+              [81, 1053, 143, 1189, 0.623046875],
+              [82, 1054, 143, 1190, 0.626953125],
+              [82, 1055, 143, 1191, 0.6279296875],
+              [82, 1055, 144, 1193, 0.63671875]
+          ],
+          "BJoker": [
+              [487, 1093, 549, 1227, 0.60107421875],
+              [486, 1091, 553, 1235, 0.60693359375],
+              [487, 1091, 552, 1231, 0.609375],
+              [486, 1091, 552, 1235, 0.61669921875],
+              [486, 1091, 553, 1237, 0.61474609375],
+              [486, 1091, 553, 1238, 0.6201171875],
+              [486, 1091, 553, 1239, 0.62353515625],
+              [486, 1091, 554, 1240, 0.62646484375],
+              [486, 1091, 554, 1241, 0.62744140625],
+              [486, 1091, 554, 1241, 0.626953125],
+              [486, 1091, 554, 1241, 0.6279296875],
+              [486, 1091, 554, 1241, 0.62646484375],
+              [486, 1091, 554, 1241, 0.62890625],
+              [487, 1092, 554, 1242, 0.6318359375],
+              [486, 1095, 552, 1241, 0.63720703125]
+          ],
+          "7d": [
+            [103.0, 1108.0, 160.0, 1235.0, 0.64306640625],
+            [102.0, 1105.0, 160.0, 1233.0, 0.6240234375],
+            [103.0, 1103.0, 160.0, 1233.0, 0.6279296875],
+            [103.0, 1104.0, 161.0, 1233.0, 0.6259765625],
+            [103.0, 1103.0, 161.0, 1232.0, 0.63330078125],
+            [103.0, 1103.0, 161.0, 1232.0, 0.6279296875],
+            [104.0, 1103.0, 161.0, 1232.0, 0.6259765625],
+            [105.0, 1103.0, 161.0, 1231.0, 0.62548828125],
+            [105.0, 1104.0, 161.0, 1232.0, 0.61328125],
+          ],
+          "8h": [
+            [479.0, 1112.0, 535.0, 1224.0, 0.64794921875],
+            [480.0, 1112.0, 534.0, 1223.0, 0.66455078125],
+            [480.0, 1112.0, 534.0, 1222.0, 0.6708984375],
+            [480.0, 1113.0, 534.0, 1223.0, 0.6669921875],
+            [481.0, 1113.0, 534.0, 1223.0, 0.6708984375],
+            [481.0, 1112.0, 534.0, 1222.0, 0.66650390625],
+            [480.0, 1113.0, 533.0, 1223.0, 0.6689453125],
+            [480.0, 1113.0, 533.0, 1223.0, 0.68017578125],
+            [479.0, 1113.0, 533.0, 1224.0, 0.662109375],
+          ],
+          "Ad": [
+              [106, 1090, 164, 1224, 0.58056640625],
+              [105, 1088, 161, 1219, 0.66259765625],
+              [106, 1088, 159, 1218, 0.64599609375],
+              [106, 1086, 159, 1216, 0.65283203125],
+              [105, 1086, 159, 1215, 0.65576171875],
+              [106, 1085, 158, 1214, 0.6533203125],
+              [106, 1086, 159, 1215, 0.6494140625],
+              [106, 1086, 158, 1215, 0.65234375],
+              [106, 1085, 159, 1215, 0.650390625],
+              [106, 1085, 159, 1215, 0.64599609375],
+              [106, 1084, 160, 1215, 0.64404296875],
+          ],
+          "Jh": [
+              [485, 1099, 538, 1217, 0.62939453125],
+              [485, 1098, 538, 1215, 0.63330078125],
+              [486, 1099, 537, 1214, 0.62548828125],
+              [486, 1098, 537, 1213, 0.6318359375],
+              [486, 1098, 537, 1213, 0.626953125],
+              [486, 1099, 537, 1214, 0.62353515625],
+              [486, 1099, 537, 1214, 0.6279296875],
+              [486, 1100, 536, 1214, 0.62353515625],
+              [485, 1101, 536, 1215, 0.62451171875],
+          ],
       ]
 
       // 打印所有检测数据
@@ -233,28 +314,28 @@ class ViewController: UIViewController {
       }
 
       // 预测函数
-      func predict(for cardType: String, model: MLModel, cardDetections: [String: [[Double]]], timeSteps: Int, scalerX: (min: [Double], max: [Double]), scalerY: (min: [Double], max: [Double])) -> [[[Double]]]? {
+      func predict(for cardType: String, model: MLModel, cardDetections: [String: [[Double]]], windowSize: Int, scalerX: (min: [Double], max: [Double]), scalerY: (min: [Double], max: [Double])) -> [[[Double]]]? {
           guard var selectedObjects = cardDetections[cardType] else {
               print("No detections for card type \(cardType)")
               return nil
           }
           
           // 对数据进行填充或截取
-          if selectedObjects.count < timeSteps {
+          if selectedObjects.count < windowSize {
               let firstElement = selectedObjects.first ?? [Double](repeating: 0.0, count: 0)
-              let padding = Array(repeating: firstElement, count: timeSteps - selectedObjects.count)
+              let padding = Array(repeating: firstElement, count: windowSize - selectedObjects.count)
               selectedObjects = padding + selectedObjects
           } else {
-              selectedObjects = Array(selectedObjects.suffix(timeSteps))
+              selectedObjects = Array(selectedObjects.suffix(windowSize))
           }
           
-          var X = preparePredictSequenceData(cardDetections: selectedObjects, sequenceLength: timeSteps)
+          var X = preparePredictSequenceData(cardDetections: selectedObjects, sequenceLength: windowSize)
           print("Initial predict sequenceData: \(X)")
           var predictionsList: [[[Double]]] = []
           
           for _ in 0..<10 {
               let X_scaled = normalizeData(X, min: scalerX.min, max: scalerX.max)
-              let inputArray = try? MLMultiArray(shape: [NSNumber(value: X.count), NSNumber(value: timeSteps), NSNumber(value: X.first?.first?.count ?? 0)], dataType: .double)
+              let inputArray = try? MLMultiArray(shape: [NSNumber(value: X.count), NSNumber(value: windowSize), NSNumber(value: X.first?.first?.count ?? 0)], dataType: .double)
               
               // 将 X_scaled 填充到 MLMultiArray 中
               for (index, value) in X_scaled.flatMap({ $0.flatMap { $0 } }).enumerated() {
@@ -288,8 +369,8 @@ class ViewController: UIViewController {
                       X[0].append(newPrediction)  // 追加新的预测到现有时间步中
                   }
                   
-                  // 确保 X 的长度保持为 timeSteps
-                  if X.count > timeSteps {
+                  // 确保 X 的长度保持为 windowSize
+                  if X.count > windowSize {
                       X.removeFirst()
                   }
                   
@@ -306,15 +387,17 @@ class ViewController: UIViewController {
       let scalerY = loadScaler(from: "scaler_y")
 
       let groupTypes = [
-          ["Tc", "Td"],
-          ["9c", "2c"],
+          //["Td", "Tc"],
+          //["BJoker","3d"],
+          //["8h","7d"],
+          ["Ad", "Jh"],
       ]
 
       for (idx, types) in groupTypes.enumerated() {
           var predictionsList: [[[Double]]] = []
           
           for cardType in types {
-              if let predictions = predict(for: cardType, model: coremlModel, cardDetections: cardDetections, timeSteps: 5, scalerX: scalerX, scalerY: scalerY) {
+              if let predictions = predict(for: cardType, model: coremlModel, cardDetections: cardDetections, windowSize: 5, scalerX: scalerX, scalerY: scalerY) {
                   predictionsList.append(contentsOf: predictions)
               }
           }
